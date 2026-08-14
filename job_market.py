@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import train_test_split, GridSearchCV
 
 class Job_market:
@@ -38,9 +37,9 @@ class Data:
 class Train_model:
     def __init__(self, df):
         self.df = df
-        
     def features(self):
-        x = pd.get_dummies(self.df[['Industry', 'Years_Experience']])
+        x = pd.get_dummies(self.df[['Industry']])  # only Industry
+        x['Years_Experience'] = self.df['Years_Experience']  # add as number
         y = self.df['Salary']
         return x, y
     
