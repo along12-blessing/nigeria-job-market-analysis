@@ -23,6 +23,7 @@ class Job_market:
         
         self.df = pd.DataFrame(data)
         return self.df
+
 class Data:
     def __init__(self, df):
         self.df = df
@@ -31,9 +32,9 @@ class Data:
        self.df['Salary'] = self.df['Salary'].fillna( self.df["Salary"].mean())
        return self.df
     
-    def save_file(self):
-       save = self.df.to_csv("Nigeria_job_market.csv")
-       return save
+    def save_file(self, path="Nigeria_job_market.csv"):
+       self.df.to_csv(path, index=False)
+       return path
 class Train_model:
     def __init__(self, df):
         self.df = df
@@ -74,6 +75,7 @@ df = market.to_store()
 
 cleaner = Data(df)
 clean_df = cleaner.clean_data()
+cleaner.save_file()
 
 model_class = Train_model(clean_df)
 x, y = model_class.features()
