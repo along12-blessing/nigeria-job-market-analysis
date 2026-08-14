@@ -6,6 +6,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 
 class Data:
+    def __init__(self):
+        self.df = None
+        
     def read_data(self):
         self.df = pd.read_csv("Nigeria_job_market.csv")
         
@@ -49,3 +52,6 @@ if mae1 < mae2:
     print("Decision Tree is better!")
 else:
     print("Random Forest is better!")
+    
+    
+   
