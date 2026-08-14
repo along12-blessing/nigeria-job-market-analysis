@@ -1,0 +1,120 @@
+[
+    {
+        "State": "Lagos",
+        "Location": "Lekki(Ikate)",
+        "Estate_Name": "Nicon Town",
+        "Propaty_Type": "Land",
+        "Plot_Size_sqm": 1000,
+        "Price": 1400000000
+    },
+    {
+        "State": "Lagos",
+        "Location": "Lekki(osapa)",
+        "Estate_Name": "pinnock Beach Estate",
+        "Propaty_Type": "Land",
+        "Plot_Size_sqm": 550,
+        "Price": 600000000
+    },
+    {
+        "State": "Lagos",
+        "Location": "Lekki(osapa)",
+        "Estate_Name": "pinnock Beach Estate",
+        "Propaty_Type": "House",
+        "Bedroom": 5,
+        "Bathroom": 5,
+        "Toilet": 6,
+        "Building": "Detached Duplex",
+        "Price": 1300000000
+    },
+    {
+        "State": "Lagos",
+        "Location": "Lekki(osapa)",
+        "Estate_Name": "pinnock Beach Estate",
+        "Propaty_Type": "House",
+        "Bedroom": 5,
+        "Bathroom": 5,
+        "Toilet": 5,
+        "Building": "Detached Duplex",
+        "Plot_Size_sqm": 800,
+        "Price": 5000000000
+    },
+    {
+        "State": "Lagos",
+        "Location": "Lekki(osapa)",
+        "Estate_Name": "pinnock Beach Estate",
+        "Propaty_Type": "Land",
+        "Plot_Size_sqm": 1000,
+        "Price": 600000000
+    },
+    {
+        "State": "Lagos",
+        "Location": "Lekki(osapa)",
+        "Estate_Name": "pinnock Beach Estate",
+        "Propaty_Type": "Land",
+        "Total_Area_sqm": 906,
+        "Covered_Area_sqm": 906,
+        "Price": 850000000
+    },
+    {
+        "State": "Lagos",
+        "Location": "Lekki(osapa)",
+        "Estate_Name": "pinnock Beach Estate",
+        "Propaty_Type": "Land",
+        "Total_Area_sqm": 600,
+        "Price": 620000000
+    },
+    {
+        "State": "Lagos",
+        "Location": "Ibeju-Lekki",
+        "Estate_Name": "Amen Estate phase 2",
+        "Propaty_Type": "House",
+        "Bedroom": 3,
+        "Bathroom": 3,
+        "Toilet": 4,
+        "Building": "Detached Duplex",
+        "Price": 200000000
+    },
+    {
+        "State": "Osun",
+        "Location": "Osogbo",
+        "Estate_Name": "Adeleke Estate",
+        "Propaty_Type": "Land",
+        "Plot_Size_sqm": 500,
+        "Price": 20000000
+    },
+    {
+        "State": "Osun",
+        "Location": "Osogbo(Ikirun Rd)",
+        "Estate_Name": "Paris Park & Gardens",
+        "Propaty_Type": "Land",
+        "Plot_Size_sqm": 500,
+        "Price": 5000000
+    },
+    {
+        "State": "Osun",
+        "Location": "Osogbo",
+        "Estate_Name": "Diamond Estate",
+        "Propaty_Type": "Land",
+        "Plot_Size_sqm": 450,
+        "Price": 4000000
+    },
+    {
+        "State": "Abuja",
+        "Location": "Phase 1(Central)",
+        "Estate_Name": "Maitama District",
+        "Plot_Size_sqm": 1000,
+        "Propaty_Type": "Land",
+        "Price": 1200000000
+    },
+    {
+        "State": "Abuja",
+        "Location": "Phase 1(Central)",
+        "Estate_Name": "Maitama District",
+        "Propaty_Type": "House",
+        "Bedroom": 7,
+        "Bathroom": 7,
+        "Toilet": 7,
+        "Building": " Fully Detached Duplex",
+        "Price": 4500000000
+    }
+]
